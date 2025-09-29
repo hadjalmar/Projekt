@@ -4,7 +4,8 @@ body {
 }
 
 
-h1 {
+
+header {
     color: #2b6948;
     background-color: rgb(122, 227, 122);
     text-align: center;
@@ -52,7 +53,7 @@ ul {
 /* Reset some default styling */
   
 .navbar {
-    background-color: #333;
+    background-color: rgb(122, 227, 122);
     padding:  0;
   }
   
@@ -68,13 +69,13 @@ ul {
   
 .nav-menu a {
     display: block;
-    color: white;
+    color: #2b6948;
     padding: 14px 20px;
     text-decoration: none;
     transition: background 0.3s;
 }
   
 .nav-menu a:hover {
-    background-color: #575757;
+    background-color: #24c16d;;
   }
   
