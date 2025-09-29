@@ -48,7 +48,7 @@ h2 {
   
   /* Dropdown Styles */
   .dropdown-content {
-    display: none;
+    display: flex;
     position: absolute;
     top: 48px;
     left: 0;
@@ -60,10 +60,9 @@ h2 {
   
   .dropdown-content li a {
     padding: 12px 16px;
-    white-space: nowrap;
 }
 .dropdown-content li{
-    list-style: none;
+    list-style: circle;
 
 }  
   .dropdown:hover .dropdown-content {
