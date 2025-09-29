@@ -33,6 +33,20 @@ ul {
     padding: 20px;
 }
 
+.elsoSzekcio {
+    display: flex;
+    justify-content: space-around;
+}
+
+.elsoSzekcio article {
+    width: 90%;
+}
+
+.elsoSzekcio img {
+    display: block;
+    width: 90%;
+}
+
 /* Reset some default styling */
   
 .navbar {
