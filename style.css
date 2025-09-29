@@ -17,3 +17,62 @@ h2 {
     color: #50a485;
     text-transform: uppercase;
 }
+
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-menu li {
+    position: relative;
+  }
+  
+  .nav-menu a {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .nav-menu a:hover {
+    background-color: #575757;
+  }
+  
+  /* Dropdown Styles */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    background-color: #444;
+    min-width: 160px;
+    z-index: 1;
+    flex-direction: column;
+  }
+  
+  .dropdown-content li a {
+    padding: 12px 16px;
+    white-space: nowrap;
+}
+.dropdown-content li{
+    list-style: none;
+
+}  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
