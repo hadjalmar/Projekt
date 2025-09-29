@@ -23,24 +23,25 @@
     <main>
         <nav class="navbar">
             <ul class="nav-menu">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Services</a></li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Fő oldal</a>
+                    <ul class="dropdown-content">
+                      <a href="#sportedzo">Sportedző</a>
+                      <a href="#kompetencia">Kompetenciaelvárás</a>
+                      <a href="#szakkepzetseg">Szakképzetséggel Rendelkező</a>
+                    </ul>
+                  </li>
+
+              <li><a href="#">Memória játék</a></li>
+              <li><a href="#">Párosító</a></li>
         
-              <li class="dropdown">
-                <a href="#" class="dropbtn">More ▾</a>
-                <ul class="dropdown-content">
-                  <li><a href="#">Gallery</a></li>
-                  <li><a href="#">Blog</a></li>
-                  <li><a href="#">Contact</a></li>
-                </ul>
-              </li>
             </ul>
           </nav>
         
       <section>
         <article>
-          <h2>Sportedző - sportszervező</h2>
+          <h2 id="sportedzo">Sportedző - sportszervező</h2>
           <p>
             Sport ágazat képzése, amely érettségi és technikusi szintű
             szakképzettség megszerzésével zárul.
@@ -80,7 +81,7 @@
           </p>
         </article>
         <article>
-          <h2>Kompetenciaelvárás</h2>
+          <h2 id="kompetencia">Kompetenciaelvárás</h2>
           <p>
             Kimagasló mozgáskoordináció, a választott sportágban való sportolói
             jártasság, jó ﬁzikum, kommunikációs készség, szakmai fejlődés
@@ -88,7 +89,7 @@
           </p>
         </article>
         <article>
-          <h2>A Szakképzetséggel Rendelkező</h2>
+          <h2 id="szakkepzetseg">A Szakképzetséggel Rendelkező</h2>
           <ul>
             <li>
               a választott sportág mozgásformáit szakszerűen bemutatja, elemzi,
