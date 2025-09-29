@@ -1,11 +1,19 @@
 body {
     background-color: #b9d461;
+    font-family: "Comic Relief", system-ui;
 }
 
 h1 {
     color: #2b6948;
+    background-color: rgb(122, 227, 122);
+    text-align: center;
+    padding: 20px;
+    font-variant: small-caps;
+    font-weight: bolder;
+    font-size: 2.3rem;
 }
 
 h2 {
     color: #50a485;
+    text-transform: uppercase;
 }
