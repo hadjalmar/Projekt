@@ -36,6 +36,7 @@ section {
 article {
     background-color: rgb(130, 242, 120);
     padding: 10px;
+    border-radius: 30px;
 }
 
 ul {
