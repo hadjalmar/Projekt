@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     background-color:white;
     font-family: "Comic Relief", system-ui;
     background-image: url(kepek/possible_hatter.jpg);
@@ -10,8 +11,8 @@ body {
 
 
 header {
-    color: #2b6948;
-    background-color: rgb(122, 227, 122);
+
+    background-color: #BBDCE5;
     text-align: center;
     padding: 2vw;
     font-variant: small-caps;
@@ -39,8 +40,9 @@ h2 {
 footer{
     margin: 1vw auto;
     width: 80%;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #D9C4B0;
     text-align: center;
+    border-radius: 3vw
 
  
 }
@@ -48,16 +50,15 @@ footer{
     display: block;
     margin: auto;
     width: 15%;
-    background-color: rgba(87, 82, 82, 0.5);
 }
 
 article{
-    background-color: rgb(130, 242, 120);
+    background-color: #BBDCE5;
     padding: 10px;
-    border-radius: 30px;
+    border-radius: 3vw;
     width: 80%;
     margin: 1vw auto;
-    padding: 5px;
+    padding: 2vw;
 }
 
 ul {
@@ -72,7 +73,7 @@ ul {
 /* Reset some default styling */
   
 .navbar {
-    background-color: rgb(122, 227, 122);
+    background-color:#D9C4B0;
     padding:  0;
   }
   
