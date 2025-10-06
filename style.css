@@ -22,7 +22,8 @@ header {
 #headerlogo{
     display: block;
     float: right;
-    width: 1%;
+    width: 10%;
+    padding-right: 20%;
 }
 #foci{
         width: 30%;
@@ -39,6 +40,9 @@ header {
     float: right;
     margin: 0.5vw;
     border-radius: 3vw;
+}
+h1{
+    padding-left: 20%;
 }
 
 h2 {
