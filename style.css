@@ -49,22 +49,25 @@ h2 {
     text-transform: uppercase;
 }
 
-#lab{
-       list-style-type: none;
-}
 footer{
     margin: 1vw auto;
     width: 80%;
     background-color: wheat;
-    text-align: center;
+    padding: 0%;
     border-radius: 3vw;
     padding: 2vw; 
     font-size: 1.5vw;
 }
+
 #logo{
     display: block;
     margin: auto;
-    width: 15%;
+    width: 32%;
+}
+
+#copyright {
+    padding-top: 6vw;
+    text-align: center;
 }
 
 article{
