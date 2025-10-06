@@ -165,3 +165,6 @@ ul {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+#Szak{
+    list-style-image: ⚽;
+}
