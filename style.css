@@ -65,6 +65,11 @@ footer{
     width: 32%;
 }
 
+#copyright {
+    padding-top: 6vw;
+    text-align: center;
+}
+
 article{
     background-color: #BBDCE5;
     padding: 1.2vw;
