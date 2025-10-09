@@ -65,3 +65,18 @@ function checkForMath() {
 
     isMatch ? disableCards() : unflipCards();
 }
+
+function disableCards() {
+    firstCard.removeEventListener("click", flipcard);
+    secondCard.removeEventListener("click", flipcard);
+
+    resetBoard();
+}
+
+function unflipCards() {
+    setTimeout(() => {
+        firstCard.classList.remove("flipped");
+        secondCard.classList.remove("flipped");
+        resetBoard();
+    }, 1000)
+}
