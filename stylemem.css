@@ -1,15 +1,10 @@
-body {
-    margin: 0;
-    background-color:white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url(kepek/possible_hatter.jpg);
-    /*background-repeat: no-repeat;*/
-    background-attachment: fixed;
-    background-size: cover;
+body{
+    margin: 0%;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #12181f;
+    color: white;
 }
-
-
-
 header {
     background-color: #BBDCE5;
     text-align: center;
@@ -19,78 +14,20 @@ header {
     font-size: 2vw;
 }
 
-#headerlogo{
-    display: block;
-    float: right;
-    width: 10%;
-    padding-right: 20%;
-}
-#foci{
-        width: 30%;
-    display: block;
-    margin: right;
-    float: right;
-    margin: 0.5vw;
-    border-radius: 3vw;
-}
-#logo{
-    width: 30%;
-    display: block;
-    margin: right;
-    float: right;
-    margin: 0.5vw;
-    border-radius: 3vw;
-}
 h1{
-    padding-left: 20%;
-}
-
-h2 {
-    text-transform: uppercase;
-}
-
-footer{
-    margin: 1vw auto;
-    width: 80%;
-    background-color: wheat;
-    padding: 0%;
-    border-radius: 3vw;
-    padding: 2vw; 
-    font-size: 1.5vw;
-}
-
-#logo{
-    display: block;
-    margin: auto;
-    width: 32%;
-}
-
-#copyright {
-    padding-top: 6vw;
     text-align: center;
+    font-weight: 700;
+    font-size: 4vw;
+}
+p{
+    text-align: center;
+    font-size: 1,7vw;
+    font-weight: bold;
 }
 
-article{
-    background-color: #BBDCE5;
-    padding: 1.2vw;
-    border-radius: 3vw;
-    width: 80%;
-    margin: 1vw auto;
-    padding: 2vw;
-    font-size: 1.5vw;
-    line-height: 2vw;
-}
 
-ul {
-    padding: 1vw;
-}
 
-.elsoSzekcio {
-    display: flex;
-    justify-content: space-around;
-}
 
-  
 .navbar {
     background-color:wheat;
     padding:  0;
@@ -168,7 +105,4 @@ ul {
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
-#Szak{
-    list-style-image: ⚽;
 }
