@@ -9,7 +9,7 @@ document.querySelector(".score").textContent = score;
 fetch("./memory.json")
     .then((res) => res.json())
     .then((data) => {
-        cards = [...data, ...data];
+        cards = [...data];
         shuffleCards();
         generateCards();
     });

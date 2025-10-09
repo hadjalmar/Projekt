@@ -5,15 +5,15 @@
     },
     {
         "image": "../memoriakepek/floorballUto.png",
-        "name": "floorball ütő"
+        "name": "floorball"
     },
     {
         "image": "../memoriakepek/focikapu.png",
-        "name": "Focikapu"
+        "name": "Foci"
     },
     {
         "image": "../memoriakepek/focilabda.png",
-        "name": "focilabda"
+        "name": "foci"
     },
     {
         "image": "../memoriakepek/korong.png",
@@ -21,22 +21,30 @@
     },
     {
         "image": "../memoriakepek/korongkapu.png",
-        "name": "Korong kapu"
+        "name": "korong"
     },
     {
         "image": "../memoriakepek/kosarlabda.png",
-        "name": "Kosárlabda"
+        "name": "kosárlabda"
     },
     {
         "image": "../memoriakepek/kosarpalank.png",
-        "name": "Kosárpalánk"
+        "name": "kosárlabda"
     },
     {
         "image": "../memoriakepek/pingpongball.png",
-        "name": "Ping pong labda"
+        "name": "ping pong"
     },
     {
         "image": "../memoriakepek/pingpongtable.png",
-        "name": "Ping pong asztal"
+        "name": "ping pong"
+    },
+    {
+        "image": "../memoriakepek/tennislabda.png",
+        "name": "tennisz"
+    },
+    {
+        "image": "../memoriakepek/tennisuto.png",
+        "name": "tennisz"
     }
 ]
