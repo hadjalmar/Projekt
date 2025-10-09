@@ -21,11 +21,31 @@ h1{
 }
 p{
     text-align: center;
-    font-size: 1,7vw;
+    font-size: 1,9vw;
     font-weight: bold;
 }
-
-
+.actions{
+    display: flex;
+    justify-content: center;
+}
+.actons button{
+    padding: 0.3vw 0.6vw;
+    font-size: 1.9vw;
+    border-radius: 1vw;
+    background-color: #27ae60;
+    color: white;
+}
+.grid-container{
+    display: grid;
+    justify-content: center;
+    grid-gap: 1.2vw;
+    grid-template-columns: repeat(6,10vw);
+    grid-template-rows: repeat(2,calc(10vw/2*3));
+}
+.card{
+    height: calc(10vw/2*3);
+    width: 10vw;
+}
 
 
 .navbar {
