@@ -40,3 +40,22 @@ function generateCards() {
         cardElement.addEventListener("click", flipcard)
     }
 }
+
+function flipcard() {
+    if (lockBoard) return;
+    if (this === firstCard) return;
+
+    this.classList.add("flipped");
+
+    if (!firstCard) {
+        firstCard = this;
+        return;
+    }
+
+    secondCard = this;
+    score++;
+    document.querySelector(".score").textContent = score;
+    lockBoard = true;
+
+    checkForMath();
+}
