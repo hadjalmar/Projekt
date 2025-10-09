@@ -6,7 +6,7 @@ let score = 0;
 
 document.querySelector(".score").textContent = score;
 
-fetch("./memory.json")
+fetch("../JS_JSON/memory.json")
     .then((res) => res.json())
     .then((data) => {
         cards = [...data];
