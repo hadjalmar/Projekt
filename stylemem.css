@@ -45,6 +45,11 @@ p{
 .card{
     height: calc(10vw/2*3);
     width: 10vw;
+    border-radius: 1vw;
+    background-color: white;
+    position: relative;
+    transform-style: preserve-3d;
+    
 }
 
 
