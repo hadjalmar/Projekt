@@ -53,8 +53,6 @@ function flipcard() {
     }
 
     secondCard = this;
-    score++;
-    document.querySelector(".score").textContent = score;
     lockBoard = true;
 
     checkForMath();
@@ -69,6 +67,9 @@ function checkForMath() {
 function disableCards() {
     firstCard.removeEventListener("click", flipcard);
     secondCard.removeEventListener("click", flipcard);
+
+    score++;
+    document.querySelector(".score").textContent = score;
 
     resetBoard();
 }
