@@ -49,8 +49,33 @@ p{
     background-color: white;
     position: relative;
     transform-style: preserve-3d;
-    
+    transition: all 0.5s ease-in-out;
 }
+.front-image{
+    width: 5vw;
+    height: 5vh;
+}
+.card.flipped{
+    transform: rotateY(180deg);
+}
+.front,
+.back{
+    backface-visibility: hidden;
+    position:absolute;
+    border-radius: 1vw;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.card .front{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+}
+
 
 
 .navbar {
