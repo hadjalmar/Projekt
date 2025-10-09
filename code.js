@@ -89,10 +89,17 @@ function resetBoard() {
 }
 
 function restart() {
-    resetBoard();
-    shuffleCards();
-    score = 0;
-    document.querySelector(".score").textContent = score;
-    gridContainer.innerHTML = "";
-    generateCards();
+    const allCards = document.querySelectorAll(".card");
+    allCards.forEach(card => card.classList.remove("flipped"));
+
+    setTimeout(() => {
+        resetBoard();
+        shuffleCards();
+        score = 0;
+        document.querySelector(".score").textContent = score;
+        
+        gridContainer.innerHTML = "";
+        
+        generateCards();
+    }, 600);
 }
