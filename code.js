@@ -59,3 +59,9 @@ function flipcard() {
 
     checkForMath();
 }
+
+function checkForMath() {
+    let isMatch = firstCard.dataset.name === secondCard.dataset.name;
+
+    isMatch ? disableCards() : unflipCards();
+}
