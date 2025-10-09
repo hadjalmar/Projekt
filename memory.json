@@ -1,0 +1,42 @@
+[
+    {
+        "image": "../memoriakepek/floorball.png",
+        "name": "floorball"
+    },
+    {
+        "image": "../memoriakepek/floorballUto.png",
+        "name": "floorball ütő"
+    },
+    {
+        "image": "../memoriakepek/focikapu.png",
+        "name": "Focikapu"
+    },
+    {
+        "image": "../memoriakepek/focilabda.png",
+        "name": "focilabda"
+    },
+    {
+        "image": "../memoriakepek/korong.png",
+        "name": "korong"
+    },
+    {
+        "image": "../memoriakepek/korongkapu.png",
+        "name": "Korong kapu"
+    },
+    {
+        "image": "../memoriakepek/kosarlabda.png",
+        "name": "Kosárlabda"
+    },
+    {
+        "image": "../memoriakepek/kosarpalank.png",
+        "name": "Kosárpalánk"
+    },
+    {
+        "image": "../memoriakepek/pingpongball.png",
+        "name": "Ping pong labda"
+    },
+    {
+        "image": "../memoriakepek/pingpongtable.png",
+        "name": "Ping pong asztal"
+    }
+]
