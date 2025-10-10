@@ -9,10 +9,12 @@
 </head>
 
 <body>
+
   <header>
     <img src="../kepek/headerlogo.png" alt="Régi logó" id="headerlogo" />
     <h1>Memóriajáték</h1>
   </header>
+
 
   <main>
     <nav class="navbar">
@@ -37,11 +39,22 @@
       </ul>
     </nav>
 
+
     <div class="grid-container"></div>
 
     <div class="actions">
       <p>Score: <span class="score"></span></p>
       <button type="button" onclick="restart()">Restart</button>
+      <div id="container">
+        <div id="display">
+          00:00:00:00
+        </div>
+        <div id="controls">
+          <button id="startBtn" onclick="start()">Start</button>
+          <button id="stopBtn" onclick="stop()">Stop</button>
+          <button id="resetBtn" onclick="reset()">Reset</button>
+        </div>
+      </div>
     </div>
   </main>
   <script src="../JS_JSON/code.js"></script>
