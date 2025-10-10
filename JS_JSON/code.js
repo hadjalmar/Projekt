@@ -30,14 +30,16 @@ function generateCards() {
         let cardElement = document.createElement("div");
         cardElement.classList.add("card");
         cardElement.setAttribute("data-name", card.name);
+
         cardElement.innerHTML = `
             <div class="front">
                 <img class="front-image" src="${card.image}">
             </div>
-            <div class="back"></div>
+            <div class="back ${currentBackgroundClass}"></div> 
         `;
+        
         gridContainer.appendChild(cardElement);
-        cardElement.addEventListener("click", flipcard)
+        cardElement.addEventListener("click", flipcard);
     }
 }
 
@@ -102,4 +104,37 @@ function restart() {
         
         generateCards();
     }, 600);
+}
+
+
+
+
+const backgroundClasses = {
+    Pottyos: 'pottyos-hatter',
+    Szivecske: 'szivecske-hatter',
+    Vonalas: 'vonalas-hatter',
+};
+let currentBackgroundClass = backgroundClasses.Pottyos;
+
+function setCardBackground(newClass) {
+    const kartyaHatulja = document.querySelectorAll(".card .back");
+
+    kartyaHatulja.forEach(kartya => {
+        kartya.classList.remove(currentBackgroundClass);
+        kartya.classList.add(newClass);
+    });
+    
+    currentBackgroundClass = newClass;
+}
+
+function Pottyos() {
+    setCardBackground(backgroundClasses.Pottyos);
+}
+
+function Szivecske() {
+    setCardBackground(backgroundClasses.Szivecske);
+}
+
+function Vonalas() {
+    setCardBackground(backgroundClasses.Vonalas);
 }
