@@ -86,7 +86,7 @@ function generateCards() {
             <div class="front">
                 <img class="front-image" src="${card.image}">
             </div>
-            <div class="back ${currentBackgroundClass}"></div> 
+            <div class="back"></div> 
         `;
         
         gridContainer.appendChild(cardElement);
