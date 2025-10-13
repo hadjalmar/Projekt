@@ -45,13 +45,14 @@ function update(){
     let seconds = Math.floor(elapsedTime / 1000 % 60);
     let milliseconds = Math.floor(elapsedTime % 1000 / 10);
 
-    if(seconds == 10) {window.open('memoria.html',_self)}
+    if(seconds == 45) {location.reload()}
 
     minutes = String(minutes).padStart(2, "0");
     seconds = String(seconds).padStart(2, "0");
     milliseconds = String(milliseconds).padStart(2, "0");
 
     display.textContent = `${minutes}:${seconds}:${milliseconds}`;
+    if(score == 6){stop()}
 }
 
 
