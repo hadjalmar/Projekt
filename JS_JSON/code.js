@@ -156,36 +156,3 @@ function restart() {
         generateCards();
     }, 600);
 }
-
-
-
-
-const backgroundClasses = {
-    Pottyos: 'pottyos-hatter',
-    Szivecske: 'szivecske-hatter',
-    Vonalas: 'vonalas-hatter',
-};
-let currentBackgroundClass = backgroundClasses.Pottyos;
-
-function setCardBackground(newClass) {
-    const kartyaHatulja = document.querySelectorAll(".card .back");
-
-    kartyaHatulja.forEach(kartya => {
-        kartya.classList.remove(currentBackgroundClass);
-        kartya.classList.add(newClass);
-    });
-    
-    currentBackgroundClass = newClass;
-}
-
-function Pottyos() {
-    setCardBackground(backgroundClasses.Pottyos);
-}
-
-function Szivecske() {
-    setCardBackground(backgroundClasses.Szivecske);
-}
-
-function Vonalas() {
-    setCardBackground(backgroundClasses.Vonalas);
-}
