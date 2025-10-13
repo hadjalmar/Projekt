@@ -114,23 +114,10 @@ button {
 }
 
 .card .back {
-  background-position: center center;
-  background-size: cover;
-  backface-visibility: hidden;
-}
-
-.back.pottyos-hatter {
-    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='20' height='40' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='%23ffffffff'/><path d='M10-10V0l10 10V0L10-10zm0 10L0 10v10l10-10V0zm0 30v10l10 10V40L10 30z'  stroke-width='1' stroke='none' fill='%23009688ff'/><path d='M10 10l10 10v10L10 20zm0 10L0 30v10l10-10z'  stroke-width='1' stroke='none' fill='%234caf50ff'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
-}
-
-.back.szivecske-hatter {
-    background-color: pink;
-    background-image: url("https://via.placeholder.com/150/FF69B4/FFFFFF?text=Szivecske");
-}
-
-.back.vonalas-hatter {
-    background-color: gray;
-    background-image: url("https://via.placeholder.com/150/808080/FFFFFF?text=Vonalas");
+    background-image: url("data:image/svg+xml,%3Csvg id='patternId' width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='a' patternUnits='userSpaceOnUse' width='20' height='40' patternTransform='scale(2)%20rotate(0)'%3E%3Crect x='0' y='0' width='100%25' height='100%25' fill='%23ffffffff'/%3E%3Cpath d='M10-10V0l10%2010V0L10-10zm0%2010L0%2010v10l10-10V0zm0%2030v10l10%2010V40L10%2030z' stroke-width='1' stroke='none' fill='%23009688ff'/%3E%3Cpath d='M10%2010l10%2010v10L10%2020zm0%2010L0%2030v10l10-10z' stroke-width='1' stroke='none' fill='%234caf50ff'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='800%25' height='800%25' transform='translate(0,0)' fill='url(%23a)'/%3E%3C/svg%3E");
+    background-position: center center;
+    background-size: cover;
+    backface-visibility: hidden;
 }
 
 .navbar {
