@@ -165,34 +165,5 @@ function restart() {
 
 
 
-let dragItem = document.getElementById('dragItem');
-let divs = document.querySelectorAll('div')
-console.log(divs)
-let div = document.querySelector('div')
-console.log(div)
-
-divs.forEach(dropZone => {
-  dropZone.addEventListener('dragover', (e) => {
-    console.log(e);
-    e.preventDefault();
-    dropZone.appendChild(dragItem);
-  });
-
-  dropZone.addEventListener('dragover', () => {
-    dropZone.classList.add('hoverOver');
-  });
-
-  dropZone.addEventListener('dragleave', () => {
-    dropZone.classList.remove('hoverOver');
-  });
-
-});
-
-dragItem.addEventListener('drag', () => {
-  dragItem.classList.add('beingDragged');
-})
-
-
-dragItem.addEventListener('dragend', () => {
-  dragItem.classList.remove('beingDragged');
-})
+let szakszavak = ["Alkar-fekvőtámasz", "Terpeszülés támasz hátul", "Jobb térdelés", "Zsugor fejállás", "Mellső függés", "Hátsó függés", "Hasonfekvés oldalsó középtartás", "Szögállás mellső középtartás", "Térdelőtámasz", "Szögállás hátsó rézsutos mélytartás"];
+let kepek = [];
