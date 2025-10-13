@@ -105,3 +105,19 @@ h1 {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.dz1{
+    background-color: #BBDCE5;
+    padding: 1.2vw;
+    border-radius: 3vw;
+    width: 80%;
+    margin: 1vw auto;
+    padding: 2vw;
+    font-size: 1.5vw;
+    line-height: 2vw;
+}
+
+.dropZone {
+  border: 3px solid black;
+  height: 200px;
+}
