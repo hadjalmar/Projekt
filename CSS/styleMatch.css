@@ -106,7 +106,7 @@ h1 {
   display: block;
 }
 
-.drag {
+.drag, .drop {
     background-color: #BBDCE5;
     padding: 1.2vw;
     border-radius: 3vw;
@@ -117,7 +117,25 @@ h1 {
     line-height: 2vw;
 }
 
-.dragZone {
+.dragZone, .dropZone {
   border: 3px solid black;
-  height: 15rem;
+  height: 35rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dragZone p {
+  margin: 0.4em 1.8rem;
+  background-color: rgb(145, 203, 216);
+  padding: 1rem;
+  vertical-align: middle;
+  align-items: center;
+  height: 2vw;
+}
+
+.dropZone img {
+  height: 30%;
+  margin: 0.4em 1.8rem;
+  background-color: rgb(145, 203, 216);
+  padding: 1rem;
 }

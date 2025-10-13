@@ -11,23 +11,29 @@ let szakszavak = [
   "Szögállás hátsó rézsutos mélytartás",
 ];
 let kepek = [
-  "../parositoKepek/alkarFekvo.png",
-  "../parositoKepek/hasonFekvesOldalso.png",
-  "../parositoKepek/hatsoFugges.png",
-  "../parositoKepek/jobbTerdeles.png",
-  "../parositoKepek/mellsoFugges.png",
-  "../parositoKepek/szogallasHatso.png",
-  "../parositoKepek/szogallasMellso.png",
-  "../parositoKepek/terdeloTamasz.png",
-  "../parositoKepek/terpeszHatulTamasz.png",
-  "../parositoKepek/zsugorFejallas.png",
+  "alkarFekvo.png",
+  "hasonFekvesOldalso.png",
+  "hatsoFugges.png",
+  "jobbTerdeles.png",
+  "mellsoFugges.png",
+  "szogallasHatso.png",
+  "szogallasMellso.png",
+  "terdeloTamasz.png",
+  "terpeszHatulTamasz.png",
+  "zsugorFejallas.png",
 ];
 
-function SzakszoFeltoltes() {
-    let szekcio = document.querySelector(".dragZone");
+function Feltolt() {
+    let dragSzekcio = document.querySelector(".dragZone");
+    let dropSzekcio = document.querySelector(".dropZone");
+
     szakszavak.forEach(szo => {
-        szekcio.innerHTML += `<p>${szo}</p>`;
+        dragSzekcio.innerHTML += `<p class="dragElement" draggable="true">${szo}</p>`;
     });
+
+    for (let i = 0; i < kepek.length; i++) {
+        dropSzekcio.innerHTML += `<img src="../parositoKepek/${kepek[i]}" alt="${szakszavak[i]}">`;
+    }
 };
 
-SzakszoFeltoltes();
+Feltolt();
