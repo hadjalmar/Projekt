@@ -117,25 +117,36 @@ h1 {
     line-height: 2vw;
 }
 
-.dragZone, .dropZone {
+.dragZoneSzavak, .dragZoneKepek {
   border: 3px solid black;
-  height: 35rem;
   display: flex;
   flex-wrap: wrap;
 }
 
-.dragZone p {
-  margin: 0.4em 1.8rem;
-  background-color: rgb(145, 203, 216);
-  padding: 1rem;
-  vertical-align: middle;
-  align-items: center;
-  height: 2vw;
+.dragZoneSzavak {
+  height: 15rem;
 }
 
-.dropZone img {
-  height: 30%;
-  margin: 0.4em 1.8rem;
+.dragZoneSzavak p {
+  margin: 0.4em 1.2rem;
   background-color: rgb(145, 203, 216);
-  padding: 1rem;
+  padding: 0.7rem;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.dragZoneKepek img {
+  height: 25%;
+  margin: 0.4em 1.3rem;
+  background-color: rgb(145, 203, 216);
+  padding: 0.7rem;
+  display: block;
+  margin: auto;
+}
+
+.dropZone {
+  border: 3px black solid;
+  height: 2rem;
+  width: 60%;
+  margin: auto;
 }
