@@ -150,3 +150,7 @@ h1 {
   width: 60%;
   margin: auto;
 }
+
+.dragElement {
+  margin: auto;
+}
