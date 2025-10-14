@@ -22,9 +22,9 @@ header {
 
 #headerlogo{
     display: block;
-    float: none;
+    float: right;
     width: 10%;
-    padding-right: 0;
+    padding-right: 20%;
 }
 
 h1 {

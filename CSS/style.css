@@ -1,135 +1,138 @@
 body {
-    margin: 0;
-    background-color:white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url('../kepek/possible_hatter.jpg');
-    /*background-repeat: no-repeat;*/
-    background-attachment: fixed;
-    background-size: cover;
+  margin: 0;
+  background-color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-image: url("../kepek/possible_hatter.jpg");
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 header {
-    background-color: #BBDCE5;
-    text-align: center;
-    padding: 2vw;
-    font-variant: small-caps;
-    font-weight: bolder;
-    font-size: 2vw;
+  background-color: #bbdce5;
+  text-align: center;
+  padding: 2vw;
+  font-variant: small-caps;
+  font-weight: bolder;
+  font-size: clamp(1.2rem, 2vw, 24px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-#headerlogo{
-    display: block;
-    float: right;
-    width: 10%;
-    padding-right: 20%;
+#headerlogo {
+  display: block;
+  float: right;
+  width: 10%;
+  padding-right: 20%;
 }
-#foci{
-    width: 30%;
-    display: block;
-    margin: right;
-    float: right;
-    margin: 1.3vw;
-    border-radius: 3vw;
+#foci {
+  width: 30%;
+  display: block;
+  margin: 1.7vw;
+  border-radius: 3vw;
+  float: right;
 }
-#logo{
-    width: 30%;
-    display: block;
-    margin: right;
-    float: right;
-    margin: 0.5vw;
-    border-radius: 3vw;
+#logo {
+  width: 30%;
+  display: block;
+  margin: right;
+  float: right;
+  margin: 0.5vw;
+  border-radius: 3vw;
 }
-h1{
-    padding-left: 20%;
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: clamp(2rem, 4vw, 48px);
+  flex-grow: 1;
 }
 
 h2 {
-    text-transform: uppercase;
+  text-transform: uppercase;
+  font-size: clamp(1.3rem, 2.5vw, 32px);
 }
 
-footer{
-    margin: 1vw auto;
-    width: 80%;
-    background-color: wheat;
-    padding: 0%;
-    border-radius: 3vw;
-    padding: 2vw; 
-    font-size: 1.5vw;
-}
-
-#logo{
-    display: block;
-    margin: auto;
-    width: 32%;
+footer {
+  margin: 1vw auto;
+  width: 80%;
+  background-color: wheat;
+  padding: 0%;
+  border-radius: 3vw;
+  padding: 2vw;
+  font-size: clamp(0.9rem, 1.5vw, 16px);
 }
 
 #copyright {
-    padding-top: 6vw;
-    text-align: center;
+  padding-top: 6vw;
+  text-align: center;
 }
 
-article{
-    background-color: #BBDCE5;
-    padding: 1.2vw;
-    border-radius: 3vw;
-    width: 80%;
-    margin: 1vw auto;
-    padding: 2vw;
-    font-size: 1.5vw;
-    line-height: 2vw;
+article {
+  background-color: #bbdce5;
+  padding: 1.2vw;
+  border-radius: 3vw;
+  width: 80%;
+  margin: 1vw auto;
+  padding: 2vw;
+  font-size: clamp(1rem, 1.5vw, 18px);
+  line-height: clamp(1.5rem, 2vw, 24px);
 }
 
 ul {
-    padding: 1vw;
+  padding: 1vw;
+}
+
+.Szak {
+  margin-left: 4vw;
 }
 
 .elsoSzekcio {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
-  
 .navbar {
-    background-color:wheat;
-    padding:  0;
-    font-size: 1.5vw;
-  }
-  
+  background-color: wheat;
+  padding: 0;
+  font-size: clamp(1rem, 1.5vw, 18px);
+}
+
 .nav-menu {
-    margin: 0;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-  }
-  
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .nav-menu li {
-    position: relative;
+  position: relative;
 }
-  
+
 .nav-menu a {
-    display: block;
-    color: black;
-    padding: 1vw 1.2vw;
-    text-decoration: none;
-    transition: background 0.3s;
+  display: block;
+  color: black;
+  padding: 1vw 1.2vw;
+  text-decoration: none;
+  transition: background 0.3s;
 }
-  
+
 .nav-menu a:hover {
-    background-color: rgb(211, 192, 156);
-  }
-  
-#sport{
-    text-align: justify;
-    text-indent: 1em;
+  background-color: rgb(211, 192, 156);
+}
+
+#sport {
+  text-align: justify;
+  text-indent: 1em;
 }
 
 .dropdown {
-  float: left;
   overflow: hidden;
 }
 
 .dropdown .dropbtn {
-  font-size: 1.5vw;  
+  font-size: clamp(1rem, 1.5vw, 18px);
   border: none;
   outline: none;
   color: black;
@@ -139,15 +142,16 @@ ul {
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover,
+.dropdown:hover .dropbtn {
   background-color: rgb(211, 192, 156);
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color:wheat;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: wheat;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -167,6 +171,57 @@ ul {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-#Szak{
-    list-style-image: ⚽;
+
+@media screen and (max-width: 700px) {
+    .nav-menu {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .nav-menu li, .dropdown {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .dropdown-content {
+        position: static; 
+    }
+}
+
+@media screen and (max-width: 550px) {
+  #foci {
+    float: none;
+    width: 95%;
+    display: block;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 501px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2vw;
+  }
+
+  #headerlogo {
+    float: none;
+    padding-right: 0;
+    width: 15%;
+    order: -1;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  h2 {
+    font-size: 1rem;
+  }
 }
