@@ -33,7 +33,7 @@ header {
   float: right;
 }
 #logo {
-  width: 30%;
+  width: 28%;
   display: block;
   margin: right;
   float: right;
@@ -63,8 +63,12 @@ footer {
   font-size: clamp(0.9rem, 1.5vw, 16px);
 }
 
+.footerSzoveg {
+  padding: 5vh 0vh 0vh 20vh;
+}
+
 #copyright {
-  padding-top: 6vw;
+  padding-top: 8vw;
   text-align: center;
 }
 
@@ -172,6 +176,12 @@ ul {
   display: block;
 }
 
+@media screen and (max-width: 830px) {
+  .footerSzoveg {
+    padding: 0;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .nav-menu {
     flex-direction: column;
@@ -202,6 +212,7 @@ ul {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 2vh;
   }
 
   #logo {
