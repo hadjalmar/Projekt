@@ -21,6 +21,7 @@ header {
 }
 article{
   display: flex;
+  margin-left: 10px;
 }
 #headerlogo {
   display: block;
@@ -43,18 +44,11 @@ p {
 }
 
 .actions {
-  margin: 3vw;
+  margin: 1.5vw;
   background-color: #bbdce5;
   padding: 1vw;
   border-radius: 3vw;
   width: 50%;
-}
-
-.actons button {
-  padding: 0.3vw 0.6vw;
-  border-radius: 1vw;
-  background-color: #27ae60;
-  color: white;
 }
 
 button {
@@ -63,9 +57,9 @@ button {
   background-color: rgb(173, 226, 228);
   border: rgb(122, 187, 212) solid 6px;
   border-radius: 10px;
-  padding: 1vw 2vw;
+  padding: 0.5vw;
   font-size: clamp(1.1rem, 1.8vw, 22px);
-  width: 40%;
+  width: 30%;
   max-width: 250px;
 }
 
@@ -79,7 +73,7 @@ button {
   background-color: #bbdce5;
   padding: 1.2vw;
   border-radius: 3vw;
-  width: 80%;
+  width: 68%;
 }
 
 .card {
@@ -218,7 +212,7 @@ button {
   background-color: white;
 }
 #display {
-  font-size: clamp(3rem, 7vw, 4rem);
+  font-size: clamp(2rem, 5vw, 2.5rem);
   font-family: monospace;
   font-weight: bold;
   color: hsl(0, 0%, 30%);
@@ -274,10 +268,30 @@ button {
     width: auto;
 }
 
+@media screen and (max-width: 970px) {
+  #display {
+    font-size: clamp(2rem, 2vw, 2rem); 
+  }
+
+  .actions button {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  #controls button {
+    font-size: clamp(0.8rem, 1.2vw, 1.2rem); 
+    padding: 0.5vw 0.5vw;
+  }
+
+  #display {
+      font-size: clamp(1.6rem, 2vw, 2rem); 
+  }
+}
 
 @media screen and (max-width: 550px) {
   #container {
-        max-width: 90%;
+    max-width: 90%;
   }
 
   #controls {
@@ -292,13 +306,13 @@ button {
   }
 
   #display {
-    font-size: clamp(2.5rem, 6vw, 3.5rem); 
+    font-size: clamp(1.2rem, 2vw, 2rem); 
   }
 
-  button {
-      width: 70%;
+  .actions button {
+      width: 90%;
       max-width: none;
-      padding: 3vw 2vw;
+      padding: 1vw;
   }
 
   #controls button {
@@ -329,4 +343,22 @@ button {
         padding-left: 0;
         text-align: center;
     }
+}
+
+@media screen and (max-width: 430px) {
+  #display {
+    font-size: clamp(0.9rem, 2vw, 2rem); 
+  }
+}
+
+@media screen and (max-width: 340px) {
+  article {
+    flex-direction: column;
+  }
+
+  article .grid-container, article .actions {
+    width: 88%;
+    margin: 5px auto;
+  }
+
 }
