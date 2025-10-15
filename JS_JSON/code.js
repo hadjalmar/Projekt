@@ -127,6 +127,10 @@ function disableCards() {
   score++;
   document.querySelector(".score").textContent = score;
 
+  if (score === 6) {
+    let szekcio = document.getElementById("eredmeny");
+    szekcio.innerHTML = `<p>Gratulálok! Nagyon ügyes vagy, eltaláltad az összes párt 45 másodperc alatt!</p>`;
+  }
   resetBoard();
 }
 
