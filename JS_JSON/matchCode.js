@@ -244,13 +244,10 @@ function checkMatch(dragElement, dropElement) {
     dropElement.removeEventListener("dragover", handleDragOver);
 
     correctMatches++;
-    console.log(correctMatches);
-
-    if (correctMatches === 10)
-    {
-      let szekcio = document.getElementById("eredmeny");
-      szekcio.innerHTML = `<p>Gratulálok! Nagyon ügyes vagy, eltaláltad az összes párt!</p>`;
-    }
+    if (correctMatches === 10) { 
+      let szekcio = document.getElementById("eredmeny"); 
+      szekcio.innerHTML = `<p>Gratulálok! Nagyon ügyes vagy, eltaláltad az összes párt!</p>`; 
+    } 
   } else {
     dropElement.classList.add("match-incorrect");
     dragElement.classList.add("match-incorrect");

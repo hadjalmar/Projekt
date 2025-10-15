@@ -218,6 +218,13 @@ p {
     align-items: center;
 }
 
+#eredmeny {
+  color: red;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 2rem;
+}
+
 @media screen and (max-width: 768px) {
     .elemek {
         width: 25vw;
