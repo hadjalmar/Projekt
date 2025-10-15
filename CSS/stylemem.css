@@ -274,6 +274,7 @@ button {
     width: auto;
 }
 
+
 @media screen and (max-width: 550px) {
   #container {
         max-width: 90%;
