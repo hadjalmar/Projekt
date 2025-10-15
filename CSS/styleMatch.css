@@ -266,4 +266,8 @@ p {
         padding-left: 0;
         text-align: center;
     }
+
+    .dropZone {
+      min-height: 5vw;
+    }
 }
