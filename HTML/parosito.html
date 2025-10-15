@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Párosítós játékok</title>
+    <link rel="stylesheet" href="../CSS/styleMatch.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Párosítós játékok</title>
-  <link rel="stylesheet" href="../CSS/styleMatch.css" />
-</head>
-
-<body>
-  <header>
-    <img src="../kepek/headerlogo.png" alt="Régi logó" id="headerlogo" />
-    <h1>Párosítós játékok</h1>
-  </header>
-  <main>
-    <nav class="navbar">
-      <ul class="nav-menu">
-        <li><a href="index.html" target="_blank">Főoldal</a></li>
-        <div class="dropdown">
-          <button class="dropbtn">Játékok
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="memoria.html" target="_blank">Memória Játék</a>
+  <body>
+    <header>
+      <img src="../kepek/headerlogo.png" alt="Régi logó" id="headerlogo" />
+      <h1>Párosítós játék:</h1>
+      <h2>Húzd a szakszavakat a megfelelő kiinduló helyzetes kép alá!</h2>
+    </header>
+    <main>
+      <nav class="navbar">
+        <ul class="nav-menu">
+          <li><a href="index.html" target="_blank">Főoldal</a></li>
+          <div class="dropdown">
+            <button class="dropbtn">
+              Játékok
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="memoria.html" target="_blank">Memória Játék</a>
+            </div>
           </div>
-        </div>
-      </ul>
-    </nav>
+        </ul>
+      </nav>
 
-    <section class="dragDrop">
-      <article class="drag">
-        <h3>Szakszavak</h3>
-        <article class="dragZoneSzavak"></article>
+      <section class="szekciok">
+        <article id="szavak">
+          <h3>Szakszavak</h3>
+          <article class="dragZoneSzavak"></article>
+        </article>
 
-        <h3>Képek</h3>
-        <article class="dragZoneKepek"></article>
-      </article>
-    </section>
-  </main>
+        <article id="kepek">
+          <h3>Képek</h3>
+          <article class="dragZoneKepek"></article>
+          <article id="eredmeny"></article>
+        </article>
+      </section>
+    </main>
 
-  <script src="../JS_JSON/matchCode.js"></script>
-</body>
-
+    <script src="../JS_JSON/matchCode.js"></script>
+  </body>
 </html>

@@ -1,7 +1,6 @@
 body {
   margin: 0%;
   min-height: 100vh;
-  min-width: 100vw;
   background-image: url('../kepek/possible_hatter.jpg');
   background-attachment: fixed;
   background-size: cover;
@@ -22,9 +21,9 @@ header {
 
 #headerlogo{
     display: block;
-    float: right;
+    float: none;
     width: 10%;
-    padding-right: 20%;
+    padding-right: 0;
 }
 
 h1 {
@@ -112,13 +111,24 @@ h3 {
   display: block;
 }
 
-.drag {
-    background-color: #BBDCE5;
-    padding: 1vw;
-    border-radius: 3vw;
-    width: 80%;
+.szekciok {
+    width: 90%;
+    height: auto;
     margin: 1vw auto;
     font-size: 1.5vw;
+    display: flex;
+    gap: 1vw;
+}
+
+.szekciok article {
+  background-color: #BBDCE5;
+  padding: 1vw;
+  border-radius: 3vw;
+}
+
+#szavak {
+  width: 70%;
+  margin: auto;
 }
 
 .dragZoneSzavak, .dragZoneKepek {
@@ -146,7 +156,7 @@ h3 {
 .dropZone {
   border: 3px black solid;
   height: auto;
-  min-height: 4vw;
+  min-height: 3vw;
   width: 100%;
   margin-top: 0.5vw;
   display: flex;
@@ -215,6 +225,17 @@ p {
     .dragZoneKepek {
         justify-content: center;
     }
+}
+
+@media screen and (max-width: 570px) {
+  .szekciok {
+    flex-direction: column;
+  }
+
+  .szekciok #szavak, .szekciok #kepek {
+    width: 98%;
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 501px) {
