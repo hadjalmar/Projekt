@@ -46,7 +46,7 @@ function Feltolt() {
     dropSzekcio.innerHTML += `
         <div class="elemek">
             <div class="image-container">
-                <img src="../parositoKepek/${kepek[i]}" alt="${szakszavakData.find((d) => d.id === i).szo}">
+                <img src="parositoKepek/${kepek[i]}" alt="${szakszavakData.find((d) => d.id === i).szo}">
             </div>
             <div class="dropZone" data-match-id="${i}"></div> 
         </div>
