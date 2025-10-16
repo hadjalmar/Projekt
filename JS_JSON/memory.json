@@ -1,50 +1,50 @@
 [
     {
-        "image": "../memoriakepek/floorball.png",
+        "image": "memoriakepek/floorball.png",
         "name": "floorball"
     },
     {
-        "image": "../memoriakepek/floorballUto.png",
+        "image": "memoriakepek/floorballUto.png",
         "name": "floorball"
     },
     {
-        "image": "../memoriakepek/focikapu.png",
+        "image": "memoriakepek/focikapu.png",
         "name": "foci"
     },
     {
-        "image": "../memoriakepek/focilabda.png",
+        "image": "memoriakepek/focilabda.png",
         "name": "foci"
     },
     {
-        "image": "../memoriakepek/korong.png",
+        "image": "memoriakepek/korong.png",
         "name": "korong"
     },
     {
-        "image": "../memoriakepek/korongkapu.png",
+        "image": "memoriakepek/korongkapu.png",
         "name": "korong"
     },
     {
-        "image": "../memoriakepek/kosarlabda.png",
+        "image": "memoriakepek/kosarlabda.png",
         "name": "kosárlabda"
     },
     {
-        "image": "../memoriakepek/kosarpalank.png",
+        "image": "memoriakepek/kosarpalank.png",
         "name": "kosárlabda"
     },
     {
-        "image": "../memoriakepek/pingpongball.png",
+        "image": "memoriakepek/pingpongball.png",
         "name": "ping pong"
     },
     {
-        "image": "../memoriakepek/pingpongtable.png",
+        "image": "memoriakepek/pingpongtable.png",
         "name": "ping pong"
     },
     {
-        "image": "../memoriakepek/tennislabda.png",
+        "image": "memoriakepek/tennislabda.png",
         "name": "tennisz"
     },
     {
-        "image": "../memoriakepek/tennisuto.png",
+        "image": "memoriakepek/tennisuto.png",
         "name": "tennisz"
     }
 ]
