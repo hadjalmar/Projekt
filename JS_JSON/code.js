@@ -58,7 +58,7 @@ function update() {
 
 document.querySelector(".score").textContent = score;
 
-fetch("../JS_JSON/memory.json")
+fetch("JS_JSON/memory.json")
   .then((res) => res.json())
   .then((data) => {
     cards = [...data];
